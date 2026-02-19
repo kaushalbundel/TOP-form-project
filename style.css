@@ -1,0 +1,139 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.body-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-section {
+  background-image: url("splash-image.jpg");
+  background-size: cover;
+  background-position: center;
+
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.image-section p {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 60%;
+  height: 100vh;
+
+  background-image: linear-gradient(to top, #bfaba4, #d8d8d8);
+}
+
+.odin-section {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.form-content {
+  width: 95%;
+  background-color: rgba(177, 150, 140, 0.988);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.form-content p {
+  font-weight: bold;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 90%;
+  font-weight: bold;
+}
+
+form {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-item label {
+  font-size: 0.7rem;
+  padding: 2px;
+  text-transform: uppercase;
+}
+
+.form-item input {
+  width: 300px;
+}
+
+.form-item button {
+  margin-top: 20px;
+
+  color: white;
+  background-color: #e68b6a;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+
+  width: 250px;
+  height: 40px;
+}
+
+.form-item button:hover {
+  background-color: #eb612f;
+}
+
+.form-item button:active {
+  background-color: #e8490f;
+}
+
+.log-in-info p {
+  font-weight: lighter;
+}
+
+.log-in-info a:hover {
+  font-weight: 500;
+}
+/* Form Validation */
+input {
+  border: 2px #e5e7eb;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+input:focus {
+  border-color: lightblue;
+  box-shadow: 2px;
+}
+
+input:user-invalid {
+  border-color: red;
+}

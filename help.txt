@@ -1,0 +1,15 @@
+- Restructure the odin logo and text so that the items align with each other.: Done
+- The odin logo and para text should align with each other for symmetry purposes.
+- form-content background box should extend horizontally
+- form-content box box shadow to be added
+
+form-validation
+- telephone validation
+- invalid validation is not coming at all. should be checked
+- password should have a pattern validation
+
+font change
+
+logo addition
+
+image credit
